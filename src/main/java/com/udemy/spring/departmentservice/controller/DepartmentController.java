@@ -1,7 +1,7 @@
-package com.udemy.spring.bootrestfulwebservices.departmentservice.controller;
+package com.udemy.spring.departmentservice.controller;
 
-import com.udemy.spring.bootrestfulwebservices.departmentservice.dto.DepartmentDto;
-import com.udemy.spring.bootrestfulwebservices.departmentservice.service.DepartmentService;
+import com.udemy.spring.departmentservice.dto.DepartmentDto;
+import com.udemy.spring.departmentservice.service.DepartmentService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

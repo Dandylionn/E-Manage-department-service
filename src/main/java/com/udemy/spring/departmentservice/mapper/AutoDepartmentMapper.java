@@ -1,7 +1,7 @@
-package com.udemy.spring.bootrestfulwebservices.departmentservice.mapper;
+package com.udemy.spring.departmentservice.mapper;
 
-import com.udemy.spring.bootrestfulwebservices.departmentservice.dto.DepartmentDto;
-import com.udemy.spring.bootrestfulwebservices.departmentservice.entity.Department;
+import com.udemy.spring.departmentservice.dto.DepartmentDto;
+import com.udemy.spring.departmentservice.entity.Department;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 

@@ -1,4 +1,4 @@
-package com.udemy.spring.bootrestfulwebservices.departmentservice.dto;
+package com.udemy.spring.departmentservice.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,6 +1,6 @@
-package com.udemy.spring.bootrestfulwebservices.departmentservice.repository;
+package com.udemy.spring.departmentservice.repository;
 
-import com.udemy.spring.bootrestfulwebservices.departmentservice.entity.Department;
+import com.udemy.spring.departmentservice.entity.Department;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

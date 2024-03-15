@@ -1,4 +1,4 @@
-package com.udemy.spring.bootrestfulwebservices.departmentservice.entity;
+package com.udemy.spring.departmentservice.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

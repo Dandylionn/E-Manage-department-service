@@ -1,11 +1,11 @@
-package com.udemy.spring.bootrestfulwebservices.departmentservice.service.impl;
+package com.udemy.spring.departmentservice.service.impl;
 
-import com.udemy.spring.bootrestfulwebservices.departmentservice.dto.DepartmentDto;
-import com.udemy.spring.bootrestfulwebservices.departmentservice.entity.Department;
-import com.udemy.spring.bootrestfulwebservices.departmentservice.exception.ResourceNotFoundException;
-import com.udemy.spring.bootrestfulwebservices.departmentservice.mapper.AutoDepartmentMapper;
-import com.udemy.spring.bootrestfulwebservices.departmentservice.repository.DepartmentRepository;
-import com.udemy.spring.bootrestfulwebservices.departmentservice.service.DepartmentService;
+import com.udemy.spring.departmentservice.dto.DepartmentDto;
+import com.udemy.spring.departmentservice.entity.Department;
+import com.udemy.spring.departmentservice.exception.ResourceNotFoundException;
+import com.udemy.spring.departmentservice.mapper.AutoDepartmentMapper;
+import com.udemy.spring.departmentservice.repository.DepartmentRepository;
+import com.udemy.spring.departmentservice.service.DepartmentService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

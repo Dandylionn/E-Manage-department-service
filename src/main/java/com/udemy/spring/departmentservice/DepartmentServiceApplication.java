@@ -1,4 +1,4 @@
-package com.udemy.spring.bootrestfulwebservices.departmentservice;
+package com.udemy.spring.departmentservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
