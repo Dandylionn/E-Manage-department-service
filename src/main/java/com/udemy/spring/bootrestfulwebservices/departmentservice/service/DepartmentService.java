@@ -4,4 +4,5 @@ import com.udemy.spring.bootrestfulwebservices.departmentservice.dto.DepartmentD
 
 public interface DepartmentService {
     DepartmentDto saveDepartment(DepartmentDto departmentDto);
+    DepartmentDto getDepartmentByCode(String code);
 }
