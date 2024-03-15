@@ -2,6 +2,7 @@ package com.udemy.spring.bootrestfulwebservices.departmentservice.service.impl;
 
 import com.udemy.spring.bootrestfulwebservices.departmentservice.dto.DepartmentDto;
 import com.udemy.spring.bootrestfulwebservices.departmentservice.entity.Department;
+import com.udemy.spring.bootrestfulwebservices.departmentservice.exception.ResourceNotFoundException;
 import com.udemy.spring.bootrestfulwebservices.departmentservice.mapper.AutoDepartmentMapper;
 import com.udemy.spring.bootrestfulwebservices.departmentservice.repository.DepartmentRepository;
 import com.udemy.spring.bootrestfulwebservices.departmentservice.service.DepartmentService;
@@ -29,7 +30,12 @@ public class DepartmentServiceImpl implements DepartmentService {
 
     @Override
     public DepartmentDto getDepartmentByCode(String departmentCode) {
-        Department department = departmentRepository.findByDepartmentCode(departmentCode);
+
+        Department department = departmentRepository.findByDepartmentCode(departmentCode).orElseThrow(
+                () -> new ResourceNotFoundException("Department", "Code", departmentCode)
+        );
+
+//        Department department = departmentRepository.findByDepartmentCode(departmentCode);
         return AutoDepartmentMapper.MAPPER.mapToDepartmentDto(department);
     }
 }
